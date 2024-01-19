@@ -1,0 +1,125 @@
+/*landpage*/
+body {
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    flex-direction: column;
+    line-height: 5px;
+}
+#logocolor {
+    color: rgb(250, 170, 79);
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-family: poppinsmedium;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(175, 13, 175);
+    transition: 0.3s all;
+}
+
+#createAcc {
+    border: 2px solid rgb(175, 13, 175);
+    border-radius: 15px;
+    padding: 10px;
+}
+#createAcc:hover {
+    background-color: rgb(175, 13, 175);
+    padding: 15px;
+    color: white;
+}
+
+h1 {
+    font-weight: 200px;
+    font-family: poppinsregular;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    margin-right: 100px;
+}
+
+span {
+    color: rgb(175, 13, 175);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(202, 86, 18);
+    color: white;
+    font-weight: bold;
+    font-family: poppinsbold;
+    font-size: larger;
+}
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+img {
+    width: 500px;
+}
+
+#slogan {
+    margin-top: 100px;
+    display:block;
+    font-family: poppinsbold;
+    font-size: 40px;
+}
+
+#coloris {
+    color: coral;
+}
+
+#seraph {
+    width: 3%;
+}
